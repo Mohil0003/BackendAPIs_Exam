@@ -1,0 +1,202 @@
+[
+  {
+    "ContainingType": "Backend_Exam.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "Backend_Exam.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.CommentsController",
+    "Method": "UpdateComment",
+    "RelativePath": "comments/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentDto",
+        "Type": "Backend_Exam.DTOs.CommentsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.CommentsController",
+    "Method": "DeleteComment",
+    "RelativePath": "comments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.TicketsController",
+    "Method": "CreateTicket",
+    "RelativePath": "tickets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketDto",
+        "Type": "Backend_Exam.DTOs.TicketsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.TicketsController",
+    "Method": "GetTickets",
+    "RelativePath": "tickets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.TicketsController",
+    "Method": "DeleteTicket",
+    "RelativePath": "tickets/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.TicketsController",
+    "Method": "AssignTicket",
+    "RelativePath": "tickets/{id}/assign",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Backend_Exam.DTOs.AssignTicketDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.TicketsController",
+    "Method": "UpdateStatus",
+    "RelativePath": "tickets/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Backend_Exam.DTOs.UpdateStatusDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.CommentsController",
+    "Method": "AddComment",
+    "RelativePath": "tickets/{ticketId}/comments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentDto",
+        "Type": "Backend_Exam.DTOs.CommentsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.CommentsController",
+    "Method": "GetComments",
+    "RelativePath": "tickets/{ticketId}/comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.UsersController",
+    "Method": "CreateUser",
+    "RelativePath": "users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Backend_Exam.DTOs.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend_Exam.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
